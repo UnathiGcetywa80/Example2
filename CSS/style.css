@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: rgb(219, 5, 5);
+    --secondary: rgb(255, 255, 255);
+    --awesome: hsl(135, 53%, 37%, .7);
+}
+.container{
+    margin-block: 20px;
+    --numbOfRed: 123;
+    --numbOfOrange: 100;
+    --numbOfYellow: 20;
+    border-width: 6px 10px;
+    border-image: radial-gradient(120deg, var(--numbOfRed), var(--numbOfOrange), var(--numbOfYellow));
+}
+#item1, #item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 300px;
+}
+
+
+
+
+
+
